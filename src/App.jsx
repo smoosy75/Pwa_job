@@ -7,19 +7,8 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100">
       <Navbar />
-      <div className="p-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Bienvenue sur JobBoard</h1>
-      </div>
-      <div className="p-4">
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <div className="flex gap-6 justify-center">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
-              alt="Amazon Logo"
-              width="100"
-            />
-          </div>
-        </div>
+      <div className="p-6 bg-blue-800 text-white flex justify-between items-center shadow-lg mb-10">
+        <h1 className="text-3xl font-extrabold">Bienvenue sur JobBoard</h1>
       </div>
       <JobBoard />
     </div>
